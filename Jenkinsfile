@@ -3,7 +3,7 @@ pipeline{
  stages{
      stage('build'){
          steps{
-             git 'https://github.com/kalpanakutty/petadoption.git'
+             git 'https://github.com/kalpanakutty/Devops.git'
              sh."./mvnw compile"
              echo 'Building the project with maven compile'
          }
